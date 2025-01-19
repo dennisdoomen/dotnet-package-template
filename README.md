@@ -74,10 +74,14 @@ This library is available as [a NuGet package](https://www.nuget.org/packages/do
 ## How do I use it?
 
 1. Create a new directory for your library initialized with Git
-2. Run `dotnet new class-library-package-solution -name MyAwesomeLibrary`
-3. Make the necessary changes to the generated code
+2. Run `dotnet new class-library-package-solution -name TheNameOfYourAwesomeLibrary`
+3. Make the necessary changes to the generated code (see next section)
 4. Commit the changes to your repository into a new commit
 5. Run `build.ps1` to build the code, run the tests, and package the library into a NuGet package in the `Artifacts` directory.
+
+## What to do after that
+
+
 
 todo: what to customize after creating the project
 todo: silent formatting in Rider and ReSharper
